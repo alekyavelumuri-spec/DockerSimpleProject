@@ -30,6 +30,7 @@ services:
       - mongo
     volumes:
       - .:/student-tracker
+      - /student-tracker/node_modules
 
 volumes:
   mongo-data:
